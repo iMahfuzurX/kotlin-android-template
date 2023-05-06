@@ -5,7 +5,7 @@ plugins {
 
 android {
     compileSdk = libs.versions.compile.sdk.version.get().toInt()
-
+    buildToolsVersion = "33.0.0"
     defaultConfig {
         minSdk = libs.versions.min.sdk.version.get().toInt()
         targetSdk = libs.versions.target.sdk.version.get().toInt()
